@@ -1,0 +1,103 @@
+{
+  "key": "group_keelson_how_we_work",
+  "title": "How We Work",
+  "fields": [
+    {
+      "key": "field_hww_heading",
+      "label": "How We Work Heading",
+      "name": "how_we_work_heading",
+      "type": "text",
+      "default_value": "How we work"
+    },
+{"key": "field_hww_description",
+"label": "How We Work Description",
+"name": "how_we_work_description",
+"type": "textarea",
+"default_value": "Every recommendation comes with clear reasoning, practical alternatives, and the information you need to make informed decisions."
+},
+{
+"key": "field_hww_button_text",
+"label": "How We Work Button Text",
+"name": "how_we_work_button_text",
+"type": "text",
+"default_value": "Learn how we work"
+},
+{
+"key": "field_hww_button_link",
+"label": "How We Work Button Link",
+"name": "how_we_work_button_link",
+"type": "url",
+"default_value": ""
+},
+    {
+      "key": "field_hww_1_heading",
+      "label": "Item 1 Heading",
+      "name": "how_we_work_1_heading",
+      "type": "text",
+      "default_value": "We give the owner the whole picture"
+    },
+    {
+      "key": "field_hww_1_description",
+      "label": "Item 1 Description",
+      "name": "how_we_work_1_description",
+      "type": "textarea",
+      "default_value": "Every recommendation comes with the alternatives we rejected and why. You should be able to challenge our advice, and we will help you do it."
+    },
+    {
+      "key": "field_hww_2_heading",
+      "label": "Item 2 Heading",
+      "name": "how_we_work_2_heading",
+      "type": "text",
+      "default_value": "We survey before we assume"
+    },
+    {
+      "key": "field_hww_2_description",
+      "label": "Item 2 Description",
+      "name": "how_we_work_2_description",
+      "type": "textarea"
+    },
+    {
+      "key": "field_hww_3_heading",
+      "label": "Item 3 Heading",
+      "name": "how_we_work_3_heading",
+      "type": "text",
+      "default_value": "We design for repair"
+    },
+    {
+      "key": "field_hww_3_description",
+      "label": "Item 3 Description",
+      "name": "how_we_work_3_description",
+      "type": "textarea"
+    },
+    {
+      "key": "field_hww_4_heading",
+      "label": "Item 4 Heading",
+      "name": "how_we_work_4_heading",
+      "type": "text",
+      "default_value": "We hand over what we know"
+    },
+    {
+      "key": "field_hww_4_description",
+      "label": "Item 4 Description",
+      "name": "how_we_work_4_description",
+      "type": "textarea"
+    }
+  ],
+  "location": [
+    [
+     {
+      "param": "block",
+      "operator": "==",
+      "value": "acf/faq-block"
+    }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "active": true,
+  "description": "Editable How We Work accordion content for the homepage.",
+  "show_in_rest": 0
+}
